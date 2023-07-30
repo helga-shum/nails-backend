@@ -5,7 +5,7 @@ import { getPortfolio } from './controllers/PortfolioCotroller.js';
 import { addClient } from './controllers/ClientController.js';
 mongoose
   .connect(
-    'mongodb+srv://helga_shum:wwwww@cluster0.jyvcw.mongodb.net/',
+    'https://nails-backend.vercel.app/',
   )
   .then(() => console.log('server OK'))
   .catch((err) => console.log('error', err));
