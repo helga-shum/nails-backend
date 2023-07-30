@@ -5,7 +5,7 @@ import { getPortfolio } from './controllers/PortfolioCotroller.js';
 import { addClient } from './controllers/ClientController.js';
 mongoose
   .connect(
-    'mongodb+srv://helga_shum:wwwww@cluster0.oot8vjh.mongodb.net/?retryWrites=true&w=majority',
+    'mongodb+srv://helga_shum:wwwww@cluster0.jyvcw.mongodb.net/',
   )
   .then(() => console.log('server OK'))
   .catch((err) => console.log('error', err));
